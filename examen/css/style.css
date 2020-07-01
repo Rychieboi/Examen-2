@@ -1,0 +1,123 @@
+body{
+	font-size: Segoe UI;
+	font-size: 15px;
+	color: #777;
+}
+header{
+	position: relative;
+	background-color: #000;
+	width: 100%;
+	top:0;
+}
+
+
+#slides h1{
+font-size: 70px;
+	width:700px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+#slides .carousel-caption{
+	display: grid;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.capa-relative img{
+	filter: grayscale(1);
+	transition: all 0.5s ease-in-out;
+}
+
+.capa-relative:hover img{
+	filter: grayscale(0);
+	transform:scale(1.5);
+	transition: all 0.5s ease-in-out;
+}
+
+#services h4{
+	font-size: 18px;
+	color: #000;
+	font-weight:600;
+	margin-bottom: 20px;
+}
+
+.circulo{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	line-height: 100px;
+	/*border: 1px solid #ddd;*/
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+	font-size: 40px;
+	color: #50FAA7;
+}
+
+section{
+	padding: 20px;
+}
+
+.info-about{
+	padding-top: 80px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.titulo{
+	font-size: 45px;
+	font-weight: 600;
+	margin-bottom:40px;
+	color: #000;
+}
+
+#about h4{
+padding-bottom: 20px;
+}
+
+#bg{
+background-image: url("../img/background-hospital.jpg");
+background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	padding: 25%;
+	text-align: center
+
+}
+
+.subtitulo{
+text-align: center;
+}
+
+#testimonios i{
+	font-size: 22px;
+	margin-bottom: 35px;
+	width: 70%;
+}
+
+#testimonios p{
+	font-size: 20px;
+	width: 70%;
+	margin:  0px auto 40px ;
+}
+
+#testimonios h4{
+	font-size: 16px;
+	width: 70%;
+}
+
+footer{
+	background-color: #121212;
+	padding: 0 20px;
+	color:#fff;
+	font-size: 13px;
+}
+footer ul li a{
+	color:#fff;
+	font-size: 16px;
+}
+
